@@ -1,0 +1,132 @@
+[
+  {
+    "question": "यदि भगवान् सभी प्राणियों के प्रति समान हैं, तो वे केवल भक्तों पर ही अनुग्रह क्यों करते हैं?",
+    "ground_truth_theme": "Bhakti/Ananya Bhakti",
+    "reference_answer": "आदि शंकराचार्य के भाष्य (9.29) के अनुसार, भगवान् का भक्तों पर अनुग्रह करना राग या द्वेष के कारण नहीं है, बल्कि यह उनके स्वभाव के अनुरूप है। भगवान् ने स्वयं को अग्नि के समान बताया है। जिस प्रकार अग्नि अपने से दूर रहने वाले प्राणियों की शीत का निवारण नहीं करती, बल्कि केवल समीप आने वालों की ही करती है, उसी प्रकार भगवान् भी भक्तों पर अनुग्रह करते हैं। जो भक्त प्रेमपूर्वक भगवान् का भजन करते हैं, वे स्वभावतः भगवान् में स्थित हैं, और भगवान् भी उनमें स्थित हैं। इसका अर्थ यह कदापि नहीं है कि भगवान् का अन्य प्राणियों के प्रति कोई द्वेष है।"
+  },
+  {
+    "question": "अनन्य भक्ति का वास्तविक अर्थ क्या है और इससे क्या प्राप्त होता है?",
+    "ground_truth_theme": "Bhakti/Ananya Bhakti",
+    "reference_answer": "आदि शंकराचार्य के भाष्य (11.54) के अनुसार, 'अनन्य भक्ति' वह है जो भगवान् को छोड़कर अन्य किसी भी पृथक् वस्तु में कभी नहीं होती। यह वह अवस्था है जहाँ भक्त को अपनी समस्त इन्द्रियों के द्वारा वासुदेव परमात्मा के अतिरिक्त अन्य किसी की भी उपलब्धि नहीं होती। ऐसी अनन्य भक्ति के द्वारा ही भगवान् को शास्त्रों के माध्यम से जाना जा सकता है, तत्त्व से उनका साक्षात्कार (दर्शन) किया जा सकता है, और अंततः उनमें प्रवेश अर्थात् मोक्ष की प्राप्ति हो सकती है।"
+  },
+  {
+    "question": "एक आत्मज्ञानी या ब्रह्मभूत पुरुष के मुख्य लक्षण क्या हैं? क्या वह संसार में सुख-दुःख का अनुभव करता है?",
+    "ground_truth_theme": "Characteristics of a Self-Realized Person",
+    "reference_answer": "आदि शंकराचार्य के भाष्य के अनुसार, जो पुरुष ब्रह्मभूत हो चुका है, वह प्रसन्नात्मा होता है। ऐसे पुरुष के लक्षण यह हैं कि वह न तो किसी वस्तु की हानि या प्रतिकूलता पर शोक करता है और न ही किसी अप्राप्त वस्तु की आकाङ्क्षा करता है (18.54)। वह सभी भूतों (प्राणियों) में सुख और दुःख को समान रूप से देखता है। इसके अतिरिक्त, वह योगी जो अन्तरात्मा में ही सुख का अनुभव करता है, अन्तरात्मा में ही रमण करता है और जिसकी ज्योति (प्रकाश) केवल अन्तरात्मा ही है, वह जीवित अवस्था में ही ब्रह्मरूप होकर मोक्ष को प्राप्त कर लेता है (5.24)।"
+  },
+  {
+    "question": "कर्मयोगी और संन्यासी में क्या समानता है और योग साधना में 'फल के संकल्प' का क्या महत्व है?",
+    "ground_truth_theme": "Characteristics of a Self-Realized Person",
+    "reference_answer": "आदि शंकराचार्य के भाष्य के अनुसार, परमार्थ संन्यासी और कर्मयोगी में 'त्याग' के दृष्टिकोण से समानता है। संन्यासी सब कर्मों और उनके फल-विषयक संकल्पों का त्याग करता है, और कर्मयोगी भी कर्म करते हुए फल-विषयक संकल्पों (इच्छाओं) का त्याग करता है (6.2)। बिना फल के संकल्पों का त्याग किए कोई भी पुरुष योगी नहीं हो सकता, क्योंकि फल का संकल्प ही चित्त के विक्षेप (अशांति) का मुख्य कारण है। इसलिए, चित्त को एकाग्र (समाधानयुक्त) करने के लिए फल-विषयक संकल्पों का त्याग अनिवार्य है (6.2)।"
+  },
+  {
+    "question": "यदि निराकार ब्रह्म की उपासना करना कठिन है, तो भगवान श्रीकृष्ण ने सगुण भक्ति को श्रेष्ठ क्यों बताया है?",
+    "ground_truth_theme": "Defeating Impersonalism",
+    "reference_answer": "भगवान श्रीकृष्ण ने स्पष्ट किया है कि जो अव्यक्त या निराकार ब्रह्म में चित्त लगाकर साधना करते हैं, उन्हें 'अधिकतर क्लेश' होता है (12.5)। इसका कारण यह है कि देहाभिमानी मनुष्यों के लिए निराकार की उपासना अत्यंत कष्टदायक है, क्योंकि उन्हें देहाभिमान का पूर्ण त्याग करना पड़ता है। इसके विपरीत, जो भक्त समस्त कर्मों को ईश्वर को समर्पित कर 'अनन्ययोग' से भगवान की उपासना करते हैं, उनके लिए भगवान स्वयं मृत्युयुक्त संसार-सागर से शीघ्र उद्धार करने वाले बन जाते हैं (12.6, 12.7)।"
+  },
+  {
+    "question": "क्या निराकार ब्रह्म की उपासना करने वाले भक्त अंततः भगवान को ही प्राप्त करते हैं, और क्या यह मार्ग सुगम है?",
+    "ground_truth_theme": "Defeating Impersonalism",
+    "reference_answer": "आदि शंकराचार्य के भाष्य के अनुसार, जो अपनी इंद्रियों को संयमित करके सर्वत्र समबुद्धि रखते हैं और समस्त प्राणियों के हित में तत्पर रहते हैं, वे निराकार (अक्षर) की उपासना करते हुए भी अंततः भगवान को ही प्राप्त करते हैं (12.4)। यद्यपि वे अंततः भगवान को ही प्राप्त होते हैं, किंतु यह मार्ग 'क्लेश अधिकतर' वाला है क्योंकि देहाभिमान से युक्त पुरुषों के लिए अव्यक्त गति को प्राप्त करना अत्यंत कष्टसाध्य है (12.5)। यहाँ 'मैं' का अर्थ आत्म-स्वरूप से है, क्योंकि तीनों कालों में आत्मरूप से सब नित्य हैं, जहाँ देहभेद होने पर भी आत्मभेद नहीं है (2.12)।"
+  },
+  {
+    "question": "यदि देवताओं की पूजा करने से फल मिलता है, तो भगवान श्रीकृष्ण उसे अल्पबुद्धि का कार्य क्यों कहते हैं?",
+    "ground_truth_theme": "Demigod Worship",
+    "reference_answer": "श्रीमद्भगवद्गीता (7.23) के अनुसार, जो लोग देवताओं की पूजा करते हैं, उनका फल विनाशशील (अन्तवत्) होता है क्योंकि उनकी बुद्धि अल्प होती है। भगवान यहाँ करुणा प्रकट करते हुए कहते हैं कि समान परिश्रम करने पर भी लोग अनन्त फल देने वाले परमेश्वर की शरण में न जाकर अल्प फल वाले देवताओं की उपासना करते हैं, जो अज्ञान के कारण है।"
+  },
+  {
+    "question": "क्या अन्य देवताओं की पूजा करने वाले को भी फल की प्राप्ति होती है, और वह फल किसके द्वारा निश्चित किया जाता है?",
+    "ground_truth_theme": "Demigod Worship",
+    "reference_answer": "हाँ, श्रीमद्भगवद्गीता (7.22) के अनुसार, भक्त जिस देवता की श्रद्धापूर्वक पूजा करता है, वह उसी देवता के स्वरूप की सेवा में तत्पर होता है। परन्तु, उन देवताओं द्वारा प्राप्त होने वाले भोग वास्तव में सर्वज्ञ ईश्वर (भगवान) द्वारा ही निश्चित किए जाते हैं। 9.25 में भी स्पष्ट है कि देवताओं की उपासना करने वाले देवों को प्राप्त होते हैं, किन्तु समान परिश्रम के बावजूद वे अज्ञानवश केवल परमेश्वर को न भजकर अल्प फल के भागी बनते हैं।"
+  },
+  {
+    "question": "आसुरी प्रकृति वाले मनुष्यों के कर्म और उनकी आशाएं व्यर्थ क्यों मानी गई हैं?",
+    "ground_truth_theme": "Devotees and Non-Devotees",
+    "reference_answer": "श्रीमद्भगवद्गीता के 9.12 श्लोक के भाष्य के अनुसार, आसुरी प्रकृति वाले मनुष्यों की आशाएं और कर्म व्यर्थ इसलिए होते हैं क्योंकि वे अपने अन्तरात्मा रूप भगवान का अनादर करते हैं। उनके द्वारा किए गए अग्निहोत्रादि कर्म भी ईश्वर के अनादर के कारण निष्फल हो जाते हैं। वे मोह उत्पन्न करने वाली राक्षसी प्रवृत्तियों का आश्रय लेते हैं, जिससे उनका ज्ञान भी निष्फल हो जाता है और वे विवेकहीन होकर क्रूर कर्मों में लिप्त हो जाते हैं।"
+  },
+  {
+    "question": "यज्ञशिष्ट अन्न का सेवन करने वालों और केवल अपने लिए भोजन पकाने वालों में क्या अंतर बताया गया है?",
+    "ground_truth_theme": "Devotees and Non-Devotees",
+    "reference_answer": "3.13 श्लोक के भाष्य के अनुसार, जो श्रेष्ठ पुरुष देवयज्ञादि करके शेष बचे हुए 'अमृत' रूप अन्न का भोजन करते हैं, वे गृहस्थ आश्रम में अनजाने में होने वाले हिंसादि पापों से मुक्त हो जाते हैं। इसके विपरीत, जो लोग केवल अपने उदर की तृप्ति के लिए स्वयं के लिए अन्न पकाते हैं, वे वास्तव में पापी हैं और वे केवल पाप का ही सेवन करते हैं।"
+  },
+  {
+    "question": "एक साधक योग में आरूढ़ होने के लिए कर्मयोग का सहारा कैसे ले सकता है और योगारूढ़ होने के बाद उसे क्या करना चाहिए?",
+    "ground_truth_theme": "Levels of God-Realization",
+    "reference_answer": "श्रीमद्भगवद्गीता के 6.3 श्लोक के भाष्य के अनुसार, जो साधक अभी ध्यानयोग में स्थित नहीं है, उसके लिए फलेच्छा रहित कर्मयोग ध्यानयोग पर आरूढ़ होने का साधन है। जैसे-जैसे मनुष्य कर्मों से उपरत होता जाता है, उसका चित्त समाहित होता जाता है और वह शीघ्र ही योगारूढ़ हो जाता है। एक बार जब साधक योगारूढ़ हो जाता है, तो उसके लिए ध्यानयोग में सदा स्थित रहने का साधन 'शम' यानी सर्व कर्मों से निवृत्ति या उपशम बतलाया गया है।"
+  },
+  {
+    "question": "भक्तों की भक्ति से प्रसन्न होकर भगवान उनके अज्ञान के अंधकार को कैसे नष्ट करते हैं?",
+    "ground_truth_theme": "Levels of God-Realization",
+    "reference_answer": "10.11 श्लोक के भाष्य के अनुसार, भगवान अपने भक्तों पर अनुग्रह करने के लिए उनके अंतःकरण में स्थित होकर उनके अज्ञानजन्य मोह के अंधकार को 'ज्ञानदीपक' के द्वारा नष्ट कर देते हैं। यह ज्ञानदीपक भक्ति के प्रसाद रूपी घृत से पूर्ण है, इसमें ब्रह्मचर्य आदि साधनों के संस्कारों से युक्त बुद्धि रूपी बत्ती है, और यह निरंतर अभ्यास से एकाग्रता रूपी ध्यान से उत्पन्न पूर्ण प्रकाश से युक्त है। इस विवेक बुद्धि रूपी दीपक से भगवान भक्त के अविवेकजन्य मिथ्या प्रतीति रूपी अंधकार को मिटा देते हैं।"
+  },
+  {
+    "question": "यदि भगवान अजन्मा और ईश्वर हैं, तो वे जन्म क्यों लेते हैं और क्या उनका जन्म साधारण मनुष्यों जैसा होता है?",
+    "ground_truth_theme": "Levels of Knowledge/ How to attain knowledge",
+    "reference_answer": "श्रीमद्भगवद्गीता के श्लोक 4.6 और 4.8 के अनुसार, भगवान यद्यपि अजन्मा, अव्ययात्मा और समस्त भूतों के ईश्वर हैं, फिर भी वे अपनी त्रिगुणात्मिका वैष्णवी माया के वश में होकर लीला से शरीरधारी जैसे प्रकट होते हैं। उनका जन्म साधारण मनुष्यों की भाँति वास्तव में नहीं होता। वे युग-युग में साधुओं की रक्षा, दुष्टों का विनाश और धर्म की स्थापना करने के लिए प्रकट होते हैं।"
+  },
+  {
+    "question": "आत्मा के स्वरूप को समझ लेने से मनुष्य कैसे मोह से मुक्त हो सकता है?",
+    "ground_truth_theme": "Levels of Knowledge/ How to attain knowledge",
+    "reference_answer": "श्लोक 2.13 के भाष्य के अनुसार, जैसे एक ही देही (आत्मा) शरीर में बाल्यावस्था, युवावस्था और वृद्धावस्था को प्राप्त करता है और इन अवस्थाओं के बदलने से आत्मा का नाश या उत्पत्ति नहीं होती, वैसे ही आत्मा निर्विकार रहता है। जो बुद्धिमान मनुष्य यह जान लेता है कि आत्मा निर्विकार और नित्य है और उसे ही देहान्तर की प्राप्ति होती है, वह इस परिवर्तन को देखकर मोहित नहीं होता।"
+  },
+  {
+    "question": "If the mind is naturally restless and difficult to control, how can a seeker possibly gain mastery over it?",
+    "ground_truth_theme": "Mind and Sense Control",
+    "reference_answer": "According to Bhagavad Gita 6.35, while the mind is indeed restless and difficult to control, it can be brought under control through two methods: practice (abhyasa) and detachment (vairagya). Practice involves the repeated effort of keeping the mind focused on a single object or state, while detachment is the cultivation of a sense of aversion toward all seen and unseen objects of desire by constantly reflecting on their inherent defects."
+  },
+  {
+    "question": "What are the characteristics of the impulses caused by desire (kama) and anger (krodha), and why is it important to control them throughout life?",
+    "ground_truth_theme": "Mind and Sense Control",
+    "reference_answer": "As explained in the commentary on 5.23, the impulse of desire (kama) manifests as internal agitation characterized by signs like hair standing on end or a joyful expression, arising when one remembers or perceives an object of pleasure. The impulse of anger (krodha) manifests as agitation characterized by trembling, sweating, biting of lips, or reddening of eyes, arising from aversion to unpleasant objects. One must strive to endure these impulses until death because they are unpredictable and can arise at any time due to various causes; thus, a seeker must remain vigilant until the very end of life to be considered truly happy and united with the Divine."
+  },
+  {
+    "question": "यदि आत्मा अकर्ता है, तो फिर शास्त्रों में उसे 'भोक्ता' क्यों कहा गया है?",
+    "ground_truth_theme": "Relationship between Jiva, Isvara and Prakriti",
+    "reference_answer": "आत्मा में सुख-दुःख का भोक्तृत्व अविद्या के कारण प्रतीत होता है। जैसा कि भाष्य में 13.21 और 13.23 के संदर्भ में स्पष्ट है, प्रकृति के कार्य-करण (शरीर, मन, बुद्धि, इन्द्रियाँ) जब सुख-दुःख के रूप में परिणत होते हैं, तो नित्य चैतन्य स्वरूप आत्मा की सत्ता के कारण वे प्रतीतियाँ चैतन्य द्वारा ग्रस्त की हुई सी जान पड़ती हैं, इसलिए आत्मा को भोक्ता कहा जाता है। वास्तव में, जब भोग्य रूपा प्रकृति के साथ पुरुष का अविद्या रूप संयोग होता है, तभी संसार और भोक्तृत्व की प्रतीति होती है। आत्मा स्वयं विकाररहित है, अतः भोक्तृत्व उसका स्वभाव नहीं, बल्कि अविद्याजन्य आरोप है।"
+  },
+  {
+    "question": "ज्ञानी और अज्ञानी दोनों ही शरीर में रहते हैं, तो फिर 'देही' के लिए 'नौ द्वार वाले पुर में रहने' का विशेषण क्यों दिया गया है?",
+    "ground_truth_theme": "Relationship between Jiva, Isvara and Prakriti",
+    "reference_answer": "यद्यपि ज्ञानी और अज्ञानी दोनों ही शरीर (नौ द्वार वाले पुर) में स्थित हैं, तथापि उनकी प्रतीति में भेद है। 5.13 के भाष्य के अनुसार, अज्ञानी जीव देह और इन्द्रियों के संघात को ही आत्मा मानता है, इसलिए उसे शरीर में रहने का बोध वैसे ही होता है जैसे कोई अपने घर में रहने का बोध करता है। इसके विपरीत, विवेकी ज्ञानी यह जानता है कि वह देहादि संघात से भिन्न है। विवेक विज्ञान के द्वारा वह मन से समस्त कर्मों का संन्यास कर चुका होता है और प्रारब्ध संस्कारों की अनुवृत्ति के कारण शरीर में स्थित होने पर भी, स्वयं न करता है और न करवाता है। अतः ज्ञानी और अज्ञानी की प्रतीति के भेद को स्पष्ट करने के लिए ही 'देहे एव आस्ते' (शरीर में ही रहता है) विशेषण सार्थक है।"
+  },
+  {
+    "question": "If the soul is eternal, why do we see it undergo change, and how should a wise person view death?",
+    "ground_truth_theme": "Soul and Transmigration",
+    "reference_answer": "According to the commentary on Verse 2.13, just as a soul experiences childhood, youth, and old age within one body without being destroyed or created by these changes, the soul similarly attains another body upon death. A wise person (dheera) who understands the soul to be immutable and eternal does not fall into delusion regarding this transition, as the soul remains unchanged through these states."
+  },
+  {
+    "question": "How does the soul interact with the material world if it is not the actual doer of actions?",
+    "ground_truth_theme": "Soul and Transmigration",
+    "reference_answer": "As explained in the commentary on Verse 15.9, the embodied soul (jivatma) resides in the body and experiences sense objects by taking hold of the five senses (hearing, sight, touch, taste, smell) and the mind as the sixth. However, as clarified in the commentary on Verse 5.14, the soul is not the creator of agency, actions, or the fruits of actions. It is the 'svabhava' or Prakriti (Maya/Avidya) that is responsible for all such activities."
+  },
+  {
+    "question": "If I want to attain the state of inaction (naishkarmya) or spiritual liberation, why should I engage in work instead of simply renouncing all activities?",
+    "ground_truth_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+    "reference_answer": "According to the commentary on Verse 3.4, one cannot attain the state of inaction (naishkarmya)—the state of being established in the inactive Self—merely by abandoning work. Performance of prescribed duties (yajna, etc.) serves as a means to purify the internal organ (antahkarana). Since the purification of the mind is a prerequisite for the manifestation of knowledge, work acts as a necessary step for achieving the goal of Knowledge-Yoga. Furthermore, as noted in Verse 3.8, renouncing work is inferior to performing it, because without work, one cannot even sustain their physical existence (sharira-yatra)."
+  },
+  {
+    "question": "How can I perform my daily duties without getting bound by the cycle of karma?",
+    "ground_truth_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+    "reference_answer": "To perform work without being bound by it, you should perform all actions as a sacrifice to the Lord (yajna), as explained in the commentary on Verse 3.9. Since Yajna is identified with Vishnu (the Lord), work done for His sake does not lead to bondage. You must perform these duties while remaining free from attachment and the desire for the fruits of your actions. Additionally, as described in Verse 5.3, if you perform your duties while remaining free from likes, dislikes, and dualities, you are to be considered a true Sannyasi even while engaged in work, and you will be easily liberated from bondage."
+  },
+  {
+    "question": "सत्त्व, रज और तम गुणों में स्थित मनुष्यों की क्या गति होती है?",
+    "ground_truth_theme": "Three Modes of Material Nature",
+    "reference_answer": "श्रीमद्भगवद्गीता के अध्याय 14, श्लोक 18 के भाष्य के अनुसार, सत्त्वगुण में स्थित पुरुष उच्च लोकों जैसे देवलोक आदि में जाते हैं। रजोगुणी पुरुष मध्यम स्थिति में रहते हैं, जिसका अर्थ है कि वे मनुष्य योनियों में उत्पन्न होते हैं। वहीं, तमोगुणी पुरुष, जो निद्रा और आलस्य जैसे निन्दनीय कार्यों में स्थित हैं, अधोगति को प्राप्त होते हैं और पशु-पक्षी आदि योनियों में जन्म लेते हैं।"
+  },
+  {
+    "question": "तमोगुण मनुष्यों को किस प्रकार प्रभावित करता है और इससे बचने का क्या उपाय है?",
+    "ground_truth_theme": "Three Modes of Material Nature",
+    "reference_answer": "अध्याय 14, श्लोक 8 के भाष्य के अनुसार, तमोगुण अज्ञान से उत्पन्न होता है और समस्त देहधारियों को अविवेक (मोह) में डालकर प्रमाद, आलस्य और निद्रा के द्वारा बाँध लेता है। इससे पार पाने का उपाय अध्याय 7, श्लोक 14 के भाष्य में बताया गया है: चूँकि यह त्रिगुणात्मिका माया दुस्तर है, इसलिए जो मनुष्य सब धर्मों को छोड़कर सर्वात्मभाव से मायापति परमेश्वर की शरण ग्रहण कर लेते हैं, वे ही इस माया से तर पाते हैं और संसार बंधन से मुक्त हो जाते हैं।"
+  },
+  {
+    "question": "यदि सभी कर्म दोषपूर्ण हैं, तो क्या हमें अपने स्वाभाविक कर्म (स्वधर्म) का त्याग कर देना चाहिए?",
+    "ground_truth_theme": "Varnasrama",
+    "reference_answer": "नहीं, अपने स्वाभाविक कर्म (स्वधर्म) का त्याग नहीं करना चाहिए। भगवान श्रीकृष्ण के अनुसार, जिस प्रकार अग्नि धुएं से ढकी रहती है, उसी प्रकार सभी कर्म किसी न किसी दोष से युक्त होते हैं क्योंकि वे त्रिगुणमयी प्रकृति से उत्पन्न हैं। स्वधर्म का त्याग करने से दोषों से छुटकारा नहीं मिलता और परधर्म (दूसरे का धर्म) भयावह होता है। अतः, अज्ञानी व्यक्ति के लिए कर्मों का पूर्ण त्याग असंभव है, इसलिए अपने सहज कर्मों को दोषपूर्ण होने पर भी नहीं छोड़ना चाहिए (श्लोक 18.48)।"
+  },
+  {
+    "question": "वर्णाश्रम धर्म के अनुसार कर्म करने का क्या लाभ है और यह मनुष्य को किस प्रकार सिद्धि प्रदान करता है?",
+    "ground_truth_theme": "Varnasrama",
+    "reference_answer": "प्रत्येक वर्ण के व्यक्ति को अपने स्वभाव के अनुसार नियत कर्मों (जैसे ब्राह्मण के लिए शम-दम, वैश्य के लिए कृषि-वाणिज्य आदि) का पालन करना चाहिए। 18.46 में बताया गया है कि जो ईश्वर समस्त प्राणियों का आधार है और जिसने यह सारा जगत व्याप्त कर रखा है, उस ईश्वर की अपने वर्णोचित कर्मों द्वारा पूजा करने से मनुष्य ज्ञाननिष्ठा की योग्यता रूप सिद्धि को प्राप्त कर लेता है। 18.44 के अनुसार, इन स्वाभाविक कर्मों का भली-भांति अनुष्ठान करने से परलोक में श्रेष्ठ जन्म, आयु, विद्या और सुख आदि की प्राप्ति होती है।"
+  }
+]

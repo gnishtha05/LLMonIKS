@@ -1,0 +1,244 @@
+{
+  "averages": {
+    "theme_accuracy": 0.5769230769230769,
+    "answer_relevance": 0.9615384615384616,
+    "faithfulness": 0.9230769230769231,
+    "lexical_accuracy": 0.17133882460988936
+  },
+  "details": [
+    {
+      "question": "यदि भगवान् सभी प्राणियों के प्रति समान हैं, तो वे केवल भक्तों पर ही अनुग्रह क्यों करते हैं?",
+      "gt_theme": "Bhakti/Ananya Bhakti",
+      "matched_theme": "Devotees and Non-Devotees",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.0625
+    },
+    {
+      "question": "अनन्य भक्ति का वास्तविक अर्थ क्या है और इससे क्या प्राप्त होता है?",
+      "gt_theme": "Bhakti/Ananya Bhakti",
+      "matched_theme": "Bhakti/Ananya Bhakti",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.15384615384615385
+    },
+    {
+      "question": "एक आत्मज्ञानी या ब्रह्मभूत पुरुष के मुख्य लक्षण क्या हैं? क्या वह संसार में सुख-दुःख का अनुभव करता है?",
+      "gt_theme": "Characteristics of a Self-Realized Person",
+      "matched_theme": "Characteristics of a Self-Realized Person",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.16216216216216214
+    },
+    {
+      "question": "कर्मयोगी और संन्यासी में क्या समानता है और योग साधना में 'फल के संकल्प' का क्या महत्व है?",
+      "gt_theme": "Characteristics of a Self-Realized Person",
+      "matched_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.22222222222222224
+    },
+    {
+      "question": "यदि निराकार ब्रह्म की उपासना करना कठिन है, तो भगवान श्रीकृष्ण ने सगुण भक्ति को श्रेष्ठ क्यों बताया है?",
+      "gt_theme": "Defeating Impersonalism",
+      "matched_theme": "Levels of God-Realization",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.0
+    },
+    {
+      "question": "क्या निराकार ब्रह्म की उपासना करने वाले भक्त अंततः भगवान को ही प्राप्त करते हैं, और क्या यह मार्ग सुगम है?",
+      "gt_theme": "Defeating Impersonalism",
+      "matched_theme": "Defeating Impersonalism",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.5882352941176471
+    },
+    {
+      "question": "यदि देवताओं की पूजा करने से फल मिलता है, तो भगवान श्रीकृष्ण उसे अल्पबुद्धि का कार्य क्यों कहते हैं?",
+      "gt_theme": "Demigod Worship",
+      "matched_theme": "Demigod Worship",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.10526315789473684
+    },
+    {
+      "question": "क्या अन्य देवताओं की पूजा करने वाले को भी फल की प्राप्ति होती है, और वह फल किसके द्वारा निश्चित किया जाता है?",
+      "gt_theme": "Demigod Worship",
+      "matched_theme": "Demigod Worship",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.2666666666666667
+    },
+    {
+      "question": "आसुरी प्रकृति वाले मनुष्यों के कर्म और उनकी आशाएं व्यर्थ क्यों मानी गई हैं?",
+      "gt_theme": "Devotees and Non-Devotees",
+      "matched_theme": "Devotees and Non-Devotees",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.15384615384615385
+    },
+    {
+      "question": "यज्ञशिष्ट अन्न का सेवन करने वालों और केवल अपने लिए भोजन पकाने वालों में क्या अंतर बताया गया है?",
+      "gt_theme": "Devotees and Non-Devotees",
+      "matched_theme": "Three Modes of Material Nature",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 0.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.0
+    },
+    {
+      "question": "एक साधक योग में आरूढ़ होने के लिए कर्मयोग का सहारा कैसे ले सकता है और योगारूढ़ होने के बाद उसे क्या करना चाहिए?",
+      "gt_theme": "Levels of God-Realization",
+      "matched_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.06451612903225806
+    },
+    {
+      "question": "भक्तों की भक्ति से प्रसन्न होकर भगवान उनके अज्ञान के अंधकार को कैसे नष्ट करते हैं?",
+      "gt_theme": "Levels of God-Realization",
+      "matched_theme": "Bhakti/Ananya Bhakti",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.14285714285714285
+    },
+    {
+      "question": "यदि भगवान अजन्मा और ईश्वर हैं, तो वे जन्म क्यों लेते हैं और क्या उनका जन्म साधारण मनुष्यों जैसा होता है?",
+      "gt_theme": "Levels of Knowledge/ How to attain knowledge",
+      "matched_theme": "Relationship between Jiva, Isvara and Prakriti",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.16666666666666669
+    },
+    {
+      "question": "आत्मा के स्वरूप को समझ लेने से मनुष्य कैसे मोह से मुक्त हो सकता है?",
+      "gt_theme": "Levels of Knowledge/ How to attain knowledge",
+      "matched_theme": "Soul and Transmigration",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.15384615384615385
+    },
+    {
+      "question": "If the mind is naturally restless and difficult to control, how can a seeker possibly gain mastery over it?",
+      "gt_theme": "Mind and Sense Control",
+      "matched_theme": "Mind and Sense Control",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.16585365853658535
+    },
+    {
+      "question": "What are the characteristics of the impulses caused by desire (kama) and anger (krodha), and why is it important to control them throughout life?",
+      "gt_theme": "Mind and Sense Control",
+      "matched_theme": "Mind and Sense Control",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "lexical_accuracy": 0.18811881188118812
+    },
+    {
+      "question": "यदि आत्मा अकर्ता है, तो फिर शास्त्रों में उसे 'भोक्ता' क्यों कहा गया है?",
+      "gt_theme": "Relationship between Jiva, Isvara and Prakriti",
+      "matched_theme": "Relationship between Jiva, Isvara and Prakriti",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.1875
+    },
+    {
+      "question": "ज्ञानी और अज्ञानी दोनों ही शरीर में रहते हैं, तो फिर 'देही' के लिए 'नौ द्वार वाले पुर में रहने' का विशेषण क्यों दिया गया है?",
+      "gt_theme": "Relationship between Jiva, Isvara and Prakriti",
+      "matched_theme": "Soul and Transmigration",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.12903225806451613
+    },
+    {
+      "question": "If the soul is eternal, why do we see it undergo change, and how should a wise person view death?",
+      "gt_theme": "Soul and Transmigration",
+      "matched_theme": "Soul and Transmigration",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 0.0,
+      "lexical_accuracy": 0.12839506172839507
+    },
+    {
+      "question": "How does the soul interact with the material world if it is not the actual doer of actions?",
+      "gt_theme": "Soul and Transmigration",
+      "matched_theme": "Relationship between Jiva, Isvara and Prakriti",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.13852813852813853
+    },
+    {
+      "question": "If I want to attain the state of inaction (naishkarmya) or spiritual liberation, why should I engage in work instead of simply renouncing all activities?",
+      "gt_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "matched_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.18095238095238095
+    },
+    {
+      "question": "How can I perform my daily duties without getting bound by the cycle of karma?",
+      "gt_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "matched_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.17010309278350513
+    },
+    {
+      "question": "सत्त्व, रज और तम गुणों में स्थित मनुष्यों की क्या गति होती है?",
+      "gt_theme": "Three Modes of Material Nature",
+      "matched_theme": "Three Modes of Material Nature",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.2857142857142857
+    },
+    {
+      "question": "तमोगुण मनुष्यों को किस प्रकार प्रभावित करता है और इससे बचने का क्या उपाय है?",
+      "gt_theme": "Three Modes of Material Nature",
+      "matched_theme": "Three Modes of Material Nature",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.4210526315789474
+    },
+    {
+      "question": "यदि सभी कर्म दोषपूर्ण हैं, तो क्या हमें अपने स्वाभाविक कर्म (स्वधर्म) का त्याग कर देना चाहिए?",
+      "gt_theme": "Varnasrama",
+      "matched_theme": "The Yoga Processes/ Renunciation of Work vs. Work in Devotion",
+      "theme_accuracy": 0.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.07407407407407407
+    },
+    {
+      "question": "वर्णाश्रम धर्म के अनुसार कर्म करने का क्या लाभ है और यह मनुष्य को किस प्रकार सिद्धि प्रदान करता है?",
+      "gt_theme": "Varnasrama",
+      "matched_theme": "Varnasrama",
+      "theme_accuracy": 1.0,
+      "answer_relevance": 1.0,
+      "faithfulness": 1.0,
+      "lexical_accuracy": 0.14285714285714285
+    }
+  ]
+}

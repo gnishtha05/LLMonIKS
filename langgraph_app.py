@@ -9,7 +9,6 @@ Model : Gemma 4 (gemma-4-31b-it) via Google Generative AI API
 Reranker : cross-encoder/ms-marco-MiniLM-L-6-v2
 """
 
-import json
 import os
 import sys
 from typing import TypedDict
@@ -19,6 +18,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.graph import StateGraph, END
 from pydantic import BaseModel, Field
 from sentence_transformers import CrossEncoder
+
+import db  # SQLite data-access layer
 
 # ─── Load environment ───────────────────────────────────────────────────────
 load_dotenv()
@@ -35,22 +36,8 @@ print("[Init] Loading cross-encoder reranker model...")
 reranker = CrossEncoder(RERANKER_MODEL_NAME)
 print("[Init] Reranker loaded.")
 
-# ─── Load data files once at module level ────────────────────────────────────
-DATA_DIR = os.path.dirname(os.path.abspath(__file__))
-
-with open(os.path.join(DATA_DIR, "themes_verses.json"), "r", encoding="utf-8") as f:
-    THEMES_DATA: list[dict] = json.load(f)
-
-with open(os.path.join(DATA_DIR, "final_data.json"), "r", encoding="utf-8") as f:
-    FINAL_DATA: dict = json.load(f)
-
-# Pre-build a theme-name → verse-ids lookup for fast access
-# Strip trailing whitespace / non-breaking spaces (\xa0) from theme names
-THEME_TO_VERSES: dict[str, list[str]] = {
-    entry["theme"].strip().replace("\xa0", ""): entry["verses"] for entry in THEMES_DATA
-}
-
-ALL_THEME_NAMES: list[str] = list(THEME_TO_VERSES.keys())
+# ─── Load theme names from SQLite (replaces JSON loading) ────────────────────
+ALL_THEME_NAMES: list[str] = db.get_all_theme_names()
 
 
 # ─── Utility: normalise verse ID ────────────────────────────────────────────
@@ -93,7 +80,7 @@ class GraphState(TypedDict):
 def map_theme(state: GraphState) -> dict:
     """
     Use LLM structured output to map the user question to the single best
-    theme from themes_verses.json, then retrieve verse bhashya from final_data.json.
+    theme, then retrieve verse bhashya from SQLite.
     """
     question = state["question"]
 
@@ -125,29 +112,17 @@ Pick the one theme whose associated verses would best answer this question."""
     matched_theme = result.theme.strip()
 
     # Fuzzy-match: if the LLM returned a theme not exactly in our list, find closest
-    if matched_theme not in THEME_TO_VERSES:
+    if matched_theme not in ALL_THEME_NAMES:
         # Try case-insensitive match
         lower_map = {t.lower(): t for t in ALL_THEME_NAMES}
         matched_theme = lower_map.get(matched_theme.lower(), ALL_THEME_NAMES[0])
 
-    # Get ALL verse IDs for the matched theme (reranker will pick the best 5)
-    raw_verse_ids = THEME_TO_VERSES[matched_theme]
+    # Get ALL verse IDs for the matched theme from SQLite
+    raw_verse_ids = db.get_verse_ids_for_theme(matched_theme)
 
-    # Normalise and look up each verse in final_data.json
-    verses_context = []
-    valid_verse_ids = []
-    for vid in raw_verse_ids:
-        norm_vid = normalise_verse_id(vid)
-        if norm_vid in FINAL_DATA:
-            verse_data = FINAL_DATA[norm_vid]
-            verses_context.append({
-                "verse_id": norm_vid,
-                "shloka": verse_data.get("shloka", ""),
-                "bhashya_hindi": verse_data.get("bhashya_hindi", ""),
-            })
-            valid_verse_ids.append(norm_vid)
-        else:
-            print(f"  [Warning] Verse {vid} (normalised: {norm_vid}) not found in final_data.json")
+    # Look up verse data from SQLite
+    verses_context = db.get_verses_by_ids(raw_verse_ids)
+    valid_verse_ids = [v["verse_id"] for v in verses_context]
 
     print(f"\n[Node 1] Theme Mapper")
     print(f"   Matched theme : {matched_theme}")

@@ -2,5 +2,7 @@ python-dotenv
 langchain-google-genai
 langgraph
 pydantic
+torch
+torchvision
 sentence-transformers
 streamlit

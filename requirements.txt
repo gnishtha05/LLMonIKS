@@ -1,0 +1,6 @@
+python-dotenv
+langchain-google-genai
+langgraph
+pydantic
+sentence-transformers
+streamlit
